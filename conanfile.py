@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class LibwebmConan(ConanFile):
     name = "libwebm"
-    git_hash = "51ca718"
+    git_hash = "5be44a2"
     version = "1.0.0.27-g" + git_hash
     license = "https://raw.githubusercontent.com/webmproject/libwebm/master/LICENSE.TXT"
     author = "KudzuRunner"
